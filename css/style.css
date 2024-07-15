@@ -140,6 +140,10 @@ h1{
     
 }
 
+.footer{
+    height: 100px;
+}
+
 .description button{
     background: #FF5949;
     border:none;
@@ -158,6 +162,10 @@ h1{
 .card{
     display: flex;
     height: 100%;
+    max-height: 130px;
+}
+.card img{
+    object-fit: fill;
     max-height: 130px;
 }
 
@@ -314,7 +322,7 @@ h1{
     }
     .card_list{
         grid-template-columns: repeat(1,1fr);
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .container{
         padding: 0 20px;
